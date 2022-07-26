@@ -23,7 +23,7 @@ res.addEventListener("change", () => {
 btnConvert.addEventListener("click", () => {
   const curVal = document.getElementById("curVal");
 
-  let resVal = document.getElementById("resVal");
+  const resVal = document.getElementById("resVal");
 
   //   for getting pkr value result
   if (res.value === "pkr") {
